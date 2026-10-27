@@ -1,0 +1,164 @@
+{
+  "subjects": [
+    {
+      "code": "MTH",
+      "name": "Mathematics",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "DS",
+      "name": "Data Structures",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "PHY",
+      "name": "Physics Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "ENG",
+      "name": "Communication Skills",
+      "weekly_hours": 2,
+      "type": "theory"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "T1 Sharma",
+      "subjects": [
+        "MTH"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 18,
+      "avoid_first_period": false
+    },
+    {
+      "name": "T2 Verma",
+      "subjects": [
+        "AI"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 18,
+      "avoid_first_period": true
+    },
+    {
+      "name": "T3 Khan",
+      "subjects": [
+        "DS"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 18,
+      "avoid_first_period": false
+    },
+    {
+      "name": "T4 Rao",
+      "subjects": [
+        "PHY"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 12,
+      "avoid_first_period": false
+    },
+    {
+      "name": "T5 Singh",
+      "subjects": [
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 12,
+      "avoid_first_period": true
+    },
+    {
+      "name": "T6 Gupta",
+      "subjects": [
+        "MTH",
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 18,
+      "avoid_first_period": false
+    }
+  ],
+  "classes": [
+    {
+      "name": "CSE-A",
+      "strength": 35,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "CSE-B",
+      "strength": 32,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "AIDE-A",
+      "strength": 30,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    }
+  ],
+  "rooms": [
+    {
+      "name": "R101",
+      "capacity": 45,
+      "type": "classroom"
+    },
+    {
+      "name": "R102",
+      "capacity": 40,
+      "type": "classroom"
+    },
+    {
+      "name": "R103",
+      "capacity": 36,
+      "type": "classroom"
+    },
+    {
+      "name": "Lab1",
+      "capacity": 40,
+      "type": "lab"
+    }
+  ],
+  "time": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "periods_per_day": 6,
+    "break_periods": [
+      4
+    ]
+  }
+}

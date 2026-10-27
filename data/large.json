@@ -1,0 +1,328 @@
+{
+  "subjects": [
+    {
+      "code": "MTH",
+      "name": "Mathematics",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "DS",
+      "name": "Data Structures",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "PHY",
+      "name": "Physics Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "ENG",
+      "name": "Communication Skills",
+      "weekly_hours": 2,
+      "type": "theory"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Teacher 01",
+      "subjects": [
+        "MTH"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 02",
+      "subjects": [
+        "AI"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 03",
+      "subjects": [
+        "DS"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": true
+    },
+    {
+      "name": "Teacher 04",
+      "subjects": [
+        "PHY"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 05",
+      "subjects": [
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 06",
+      "subjects": [
+        "MTH",
+        "MTH"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": true
+    },
+    {
+      "name": "Teacher 07",
+      "subjects": [
+        "AI",
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 08",
+      "subjects": [
+        "DS"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 09",
+      "subjects": [
+        "PHY"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": true
+    },
+    {
+      "name": "Teacher 10",
+      "subjects": [
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 11",
+      "subjects": [
+        "MTH",
+        "MTH"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 12",
+      "subjects": [
+        "AI",
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": true
+    },
+    {
+      "name": "Teacher 13",
+      "subjects": [
+        "DS"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 14",
+      "subjects": [
+        "PHY"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": false
+    },
+    {
+      "name": "Teacher 15",
+      "subjects": [
+        "ENG"
+      ],
+      "unavailable_periods": {},
+      "max_weekly_load": 20,
+      "avoid_first_period": true
+    }
+  ],
+  "classes": [
+    {
+      "name": "Class-01",
+      "strength": 30,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-02",
+      "strength": 35,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-03",
+      "strength": 40,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-04",
+      "strength": 25,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-05",
+      "strength": 30,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-06",
+      "strength": 35,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-07",
+      "strength": 40,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    },
+    {
+      "name": "Class-08",
+      "strength": 25,
+      "subjects": [
+        "MTH",
+        "AI",
+        "DS",
+        "PHY",
+        "ENG"
+      ],
+      "lunch_period": 4
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Room-01",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-02",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-03",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-04",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-05",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-06",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-07",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Lab-01",
+      "capacity": 45,
+      "type": "lab"
+    }
+  ],
+  "time": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "periods_per_day": 7,
+    "break_periods": [
+      4
+    ]
+  }
+}
