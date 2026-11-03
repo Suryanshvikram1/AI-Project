@@ -128,6 +128,22 @@ with tabs[0]:
             with st.expander("Soft-constraint breakdown"):
                 st.dataframe(pd.DataFrame(report["soft_details"]), use_container_width=True, hide_index=True)
         df = schedule_to_dataframe(data, st.session_state.schedule)
+        st.subheader("📅 Generated Timetable")
+
+        days = data["time"]["days"]
+        periods = list(range(1, data["time"]["periods_per_day"] + 1))
+
+        grid = pd.DataFrame("", index=[f"Period {p}" for p in periods], columns=days)
+
+        for _, row in df.iterrows():
+            text = f"{row['Subject']}\n{row['Teacher']}\n{row['Room']}"
+            grid.loc[f"Period {int(row['Period'])}", row["Day"]] = text
+
+        st.dataframe(
+            grid,
+            use_container_width=True,
+            height=450
+        )
         st.download_button("⬇️ Download timetable CSV", df.to_csv(index=False).encode("utf-8"),
                            file_name="timetable.csv", mime="text/csv")
         xbuf = io.BytesIO()
